@@ -12,12 +12,35 @@ header h1{
    margin:0;
 }
 
+div{
+    box-sizing: border-box;
+}
+
 div.post{
     background: white;
+    margin-top: 10px;
 }
 
 div.post h2, div.post p{
     padding: 10px;
+    margin: 0;
+}
+
+div.post .post-header div:first-child{
+       display: inline-block;
+       width: 80%;
+}
+
+div.post .post-header div:last-child{
+       display: inline-block;
+       width: 20%;
+       padding: 10px;
+       text-align: right;
+       color:gray
+}
+ 
+div.post img{
+    width: 100%;
 }
 
 div.container{
@@ -25,6 +48,3 @@ div.container{
     margin: auto;
 }
 
-div.post img{
-    width: 100%;
-}
